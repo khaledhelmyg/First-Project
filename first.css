@@ -1,0 +1,195 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a i{
+    color: rgb(95,93,93);
+    font-size: 18px !important;
+}
+h1,h2,h3{
+    font-weight: 900;
+}
+h4,h5,h6{
+    font-weight: 700;
+}
+.btn{
+    border-radius: 0% !important;
+    box-shadow: none !important;
+}
+.btn-primary{
+    background-color: #020100 !important;
+    border-color: #020100 !important;
+}
+.btn-primary:hover{
+    background-color: transparent !important;
+    color: #020100 !important;
+}
+.btn-outline-secondary{
+    color: #efffef !important;
+    border-color: #efffef !important;   
+}
+.btn-outline-secondary:hover{
+    color: #020100 !important;
+    background-color: #efffef !important;
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-heading::first-letter{
+    color: red;
+}
+.navbar{
+    opacity: 1;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-link, .navbar-brand{
+    color: #020100 !important;
+}
+.nav-link:hover{
+    color: #777 !important;
+}
+.navbar .btn-primary{
+    color: #efffef !important;
+}
+.navbar .btn-primary:hover{
+    color: #020100 !important;
+    background-color: transparent !important;
+}
+.home{
+    min-height: 660px;
+    overflow: hidden;
+    background-image: url(images/meed.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.card{
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275);
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+.call-to-action{
+    background-color: #020100;
+    color: #efffef;
+}
+.price-tag-rounded-circle{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #020100;
+    padding: 20px;
+    color: #ecddd9;
+    border-radius: 50%;
+}
+.price{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.dollar{
+    font-size: 1.4rem;
+}
+.gallery{
+    column-count: 3;
+    column-width: 33%;
+}
+.gallery .pisc{
+    position: relative;
+    overflow: hidden !important;
+}
+.gallery .pisc img:hover{
+    transform: scale(1.3);
+}
+.testimonial-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial{
+    background-color: #020100;
+    color: #ecddd9;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+textarea,
+select {
+    border-radius: 0 !important;
+    padding: 30px 10px !important;
+    border: none;
+    border-bottom: 1px solid #020100 !important;
+    color: #020100 !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+select:focus {
+    border-color: #020100 !important;
+    box-shadow: 0 1px 1px rgba(2,1,0,0.075);
+    outline: 0 none !important;
+}
+.footer{
+    background-color: #020100;
+    color: #ecddd9 !important;
+}
+.footer a{
+    color: #efffef !important;
+}
+.footer .navbar-brand{
+    color: #efffef !important;
+}
+.footer h4{
+    margin-top: 10px;
+}
+@media (max-width:700px){
+    .navbar .nav-item{
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .navbar{
+        background-color: #efffef;
+    }
+    .call-to-action, .text-right{
+        text-align: center;
+    }
+}
+@media (max-width:500px){
+    .gallery{
+        column-count: 1;
+        column-width: 100%;
+    }
+}
